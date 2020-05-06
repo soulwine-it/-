@@ -33,6 +33,7 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
+		//return home이라는 문자열을 리턴했기 때문에 경로는 /WEB-INF/views/home.jsp 경로가 됩니다.
 		return "home";
 	}
 	
